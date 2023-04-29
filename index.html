@@ -105,7 +105,8 @@
                     name="user_phone"
                     id="user_phone"
                     required
-                    minlength="2"
+                    minlength="10"
+                    maxlength="13"
                   />
                   <svg class="modal-form-icon" width="16" height="16">
                     <use href="./images/icon.svg#icon-phone"></use>
@@ -119,22 +120,26 @@
                     name="user_email"
                     id="user_email"
                     required
-                    minlength="2"
+                   
                   />
                   <svg class="modal-form-icon" width="16" height="16">
                     <use href="./images/icon.svg#icon-email"></use>
                   </svg>
                 </div>
                 <label class="modal-form-label" for="Comments">Comments</label>
-                <textarea class="modal-form-textarea" name="" rows="7" placeholder="Text input" id="Comments"></textarea>
-                <label>
-                  <input type="checkbox" name="" />
-                  <span
+                <textarea class="modal-form-textarea" name="" rows="8" placeholder="Text input" id="Comments"></textarea>
+                <label class="modal-form-treaty">
+                  <input class="modal-form-treaty-box" type="checkbox" name="" />
+                  <span class="modal-span-checkbox">
+                    <svg class="modal-checkbox-icon" width="16" height="16">
+                      <use href="./images/icon.svg#icon-checked"></use>
+                    </svg>
+                  <span class="modal-form-treaty-text"
                     >I accept the terms and conditions of the
-                    <a href="">Privacy Policy</a></span
+                    <a class="modal-form-treaty-link" href="">Privacy Policy</a></span
                   >
                 </label>
-                <button class="hero-button" type="submit">Send</button>
+                <button class="modal-button" type="submit">Send</button>
               </form>
             </div>
           </div>
@@ -653,6 +658,26 @@
             </li>
           </ul>
         </div>
+        <form class="subscribe-telegram" name="subscribe-telegram">
+          <p class="subscribe-indent">Subscribe</p>
+          <div class="subscribe-form-div">
+            <label class="subscribe-form-label" for="user_email">
+              <input
+                    class="subscribe-form-input"
+                    type="text"
+                    name="user_email"
+                    placeholder="E-mail"
+                    id="user_email"
+                    required
+                    >
+              </label>
+              <button class="subscribe-form-btn" type="submit">Subscribe
+                <svg class="subscribe-form-icon" width="24" height="20">
+                  <use href="./images/icon.svg#icon-telegram"></use>
+                </svg>
+              </button>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
