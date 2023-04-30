@@ -350,10 +350,20 @@ img {
 }
 
 .modal-form-treaty {
+display: flex;
+align-items: center;
+gap: 8px;
+margin-bottom: 24px;
 }
 
 .modal-form-treaty-box {
   appearance: none;
+  position: absolute;
+width: 16px;
+height: 16px;
+
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
 }
 
 .modal-checkbox-icon {
@@ -368,6 +378,7 @@ img {
 }
 
 .modal-form-treaty-link {
+  margin-left: 5px;
   color: #4d5ae5;
 }
 .modal-button {
