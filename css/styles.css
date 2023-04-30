@@ -310,6 +310,8 @@ img {
   border-radius: 4px;
   outline: 1px solid rgba(46, 47, 66, 0.4);
   outline-offset: -1px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus {
@@ -344,6 +346,8 @@ img {
   outline: 1px solid rgba(46, 47, 66, 0.4);
   outline-offset: -1px;
   resize: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-textarea:focus {
   outline-color: #4d5ae5;
@@ -369,6 +373,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
 }
+
 .modal-span-checkbox:focus {
   border: 2px solid #404bbf;
   border-radius: 2px;
