@@ -356,7 +356,7 @@ img {
 }
 
 .modal-form-treaty-box {
-  appearance: none; 
+  appearance: none;
 }
 
 .modal-span-checkbox {
@@ -385,12 +385,11 @@ img {
 
 .modal-form-treaty-text {
   font-size: 12px;
-  line-height: 1.17;  
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 
 .modal-form-treaty-link {
-
 }
 .modal-button {
   min-width: 169px;
