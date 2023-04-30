@@ -350,36 +350,47 @@ img {
 }
 
 .modal-form-treaty {
-display: flex;
-align-items: center;
-gap: 8px;
-margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 .modal-form-treaty-box {
-  appearance: none;
-  position: absolute;
-width: 16px;
-height: 16px;
+  appearance: none; 
+}
 
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 2px;
+.modal-span-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+}
+.modal-span-checkbox:focus {
+  border: 2px solid #404bbf;
+  border-radius: 2px;
+}
+
+.modal-form-treaty-box:checked + .modal-span-checkbox {
+  border: 1px solid #404bbf;
+  background-color: #404bbf;
 }
 
 .modal-checkbox-icon {
+  fill: #ffffff;
 }
 
 .modal-form-treaty-text {
-  display: flex;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.17;  
   letter-spacing: 0.04em;
-  color: #8e8f99;
 }
 
 .modal-form-treaty-link {
-  margin-left: 5px;
-  color: #4d5ae5;
+
 }
 .modal-button {
   min-width: 169px;
@@ -717,6 +728,10 @@ border-radius: 2px;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #2e2f42;
+}
+
+.subscribe-form-input::placeholder {
+  color: #ffffff;
 }
 
 .subscribe-form-btn {
