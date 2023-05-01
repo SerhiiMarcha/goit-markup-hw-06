@@ -133,18 +133,19 @@
                   placeholder="Text input"
                   id="Comments"
                 ></textarea>
-                <label class="modal-form-treaty" for="accept">
-                  <input
-                    class="modal-form-treaty-box"
-                    type="checkbox"
-                    name="accept"
-                    id="accept"
-                  />
-                  <span class="modal-span-checkbox">
-                    <svg class="modal-checkbox-icon" width="10" height="8">
-                      <use href="./images/icon.svg#icon-checkbox-tick"></use>
-                    </svg>
-                  </span>
+
+                <label class="modal-form-treaty">
+                  <input class="modal-form-treaty-box" type="checkbox" name="user_treaty" />
+                  <svg class="modal-form-treaty-icon" width="16" height="16">
+                    <use
+                      class="modal-form-treaty-unchecked"
+                       href="./images/icon.svg#icon-unchecked"
+                    ></use>
+                    <use
+                      class="modal-form-treaty-checked"
+                      href="./images/icon.svg#icon-checked"
+                    ></use>
+                  </svg>
                   <span class="modal-form-treaty-text"
                     >I accept the terms and conditions of the
                     <a class="modal-form-treaty-link" href="">Privacy Policy</a>
