@@ -368,6 +368,15 @@ img {
 
 .modal-form-treaty-icon {
 margin-right: 8px;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-treaty-box:focus + .modal-form-treaty-icon {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #404BBF;
+  border-radius: 4px;
 }
 
 .modal-form-treaty-unchecked {
