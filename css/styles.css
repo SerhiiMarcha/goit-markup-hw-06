@@ -372,11 +372,13 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-treaty-box:hover + .modal-form-treaty-icon,
 .modal-form-treaty-box:focus + .modal-form-treaty-icon {
   width: 16px;
   height: 16px;
   border: 1px solid #404BBF;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .modal-form-treaty-unchecked {
